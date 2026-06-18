@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import bg from "./assets/hero_bg.png";
 import Global from "./components/Global";
+import Fees from "./components/Fees";
+import Showcase from "./components/Showcase";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Global/>
+      <Global />
+      <Fees />
+      <Showcase />
     </div>
   );
 }
