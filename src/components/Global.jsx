@@ -1,24 +1,18 @@
 import letsFind from "../assets/lets_find_rectangle.png";
-import Badge from "./reusables/Badge";
 import GruCard from "./reusables/GruCard";
 import GruCardLight from "./reusables/GruCardLight";
+import TextBlock from "./reusables/TextBlock";
 
 export default function Global() {
   return (
     <div className="flex w-[1070px] mx-auto mt-40 items-center gap-20 mb-20">
-      <div className="w-1/2">
-        <div className="mb-10">
-          <Badge text="Global Reach" />
-        </div>
-        <h2 className="text-[40px]">
-          The First Fully Global Job Board, Anywhere, Ever
-        </h2>
-        <p className="text-[#11142DA4] mt-8">
-          RemoteRecruit connects candidates with opportunities around the world.
-          With today’s remote-first workforce, you need to be able to find the
-          best jobs and the best people for them, wherever they may be.
-        </p>
-      </div>
+      <TextBlock
+        badgeText="Global Reach"
+        header="The First Fully Global Job Board, Anywhere, Ever"
+        body="RemoteRecruit connects candidates with opportunities around the world.
+        With today’s remote-first workforce, you need to be able to find the
+        best jobs and the best people for them, wherever they may be."
+      />
       <div className="w-1/2">
         <div className="bg-white border border-dashed border-[#F6F4FF] py-10 rounded-[34px] shadow-[14px_41px_100px_0px_rgba(49,89,211,0.22)]  flex flex-col justify-between p-6">
           <img src={letsFind} alt="lets_find_rectangle" />
