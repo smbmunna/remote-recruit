@@ -1,4 +1,5 @@
 import letsFind from "../assets/lets_find_rectangle.png";
+import Badge from "./reusables/Badge";
 import GruCard from "./reusables/GruCard";
 import GruCardLight from "./reusables/GruCardLight";
 
@@ -6,6 +7,9 @@ export default function Global() {
   return (
     <div className="flex w-[1070px] mx-auto mt-40 items-center gap-20 mb-20">
       <div className="w-1/2">
+        <div className="mb-10">
+          <Badge text="Global Reach" />
+        </div>
         <h2 className="text-[40px]">
           The First Fully Global Job Board, Anywhere, Ever
         </h2>
