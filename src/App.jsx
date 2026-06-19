@@ -9,6 +9,7 @@ import Help from "./components/Help";
 import Footer from "./components/Footer";
 import footerBg from "./assets/footer_bg.png";
 import FAQ from "./components/FAQ";
+import ScrollToTop from "./components/reusables/ScrollToTop";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         </div>
         <Footer />
       </div>
+      <ScrollToTop/>
     </div>
   );
 }
