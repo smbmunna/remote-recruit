@@ -1,16 +1,39 @@
-# React + Vite
+# RemoteRecruit Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, high-fidelity landing page interface built for **RemoteRecruit**, featuring smooth layout positioning, custom linear gradients, and reusable atomic UI structures.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Framework & Libraries Used
 
-## React Compiler
+This project relies on a modern frontend stack designed for speed, precise layout controls, and vector clarity:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** (v18+) - Component-based user interface management
+* **Tailwind CSS** - Utility-first CSS framework for rapid, adaptive layout styling
+* **React Icons** (`react-icons/fa`) - Scalable vector graphic social and navigational glyphs
+* **Vite** (Recommended build tool asset engine)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Project Setup Instructions
+
+Follow these steps to spin up the local development environment:
+
+### 1. Clone the repository
+```bash
+git clone <your-repository-url>
+cd remote-recruit-landing
+
+### 2. Install dependencies
+Ensure you have Node.js installed, then run:
+
+```bash
+npm install
+
+### 3. Run the development server
+Start the local asset compilation server:
+
+```bash
+npm run dev
+
+## ⚠️ Known Issues or Limitations
