@@ -47,5 +47,4 @@ npm run dev
 ## ⚠️ Known Issues or Limitations
 
 - Some sections may require additional responsiveness adjustments for very small screens.
-- Form submission functionality is currently UI-only and not connected to a backend.
 - Animations are intentionally minimal to prioritize performance.
