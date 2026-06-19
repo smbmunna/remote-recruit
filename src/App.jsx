@@ -31,9 +31,11 @@ function App() {
         className="bg-cover bg-top bg-no-repeat w-full flex flex-col justify-between mt-80 relative"
         style={{ backgroundImage: `url(${footerBg})` }}
       >
-        <div className="-mt-[270px] relative z-20">{/* <Help /> */}</div>
+        <div className="-mt-[270px] relative z-20">
+          <Help />
+        </div>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
