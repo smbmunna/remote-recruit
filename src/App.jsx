@@ -34,7 +34,6 @@ function App() {
         <div className="-mt-[270px] relative z-20">
           <Help />
         </div>
-
         <Footer />
       </div>
     </div>
