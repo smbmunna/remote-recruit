@@ -20,11 +20,11 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Global />
+      {/* <Global />
       <Fees />
       <Showcase />
       <SignUp />
-      <FAQ/>
+      <FAQ/> */}
 
       {/* footer container */}
       <div
@@ -32,10 +32,10 @@ function App() {
         style={{ backgroundImage: `url(${footerBg})` }}
       >
         <div className="-mt-[270px] relative z-20">
-          <Help />
+          {/* <Help /> */}
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
