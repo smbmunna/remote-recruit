@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import footerBg from "./assets/footer_bg.png";
 import FAQ from "./components/FAQ";
 import ScrollToTop from "./components/reusables/ScrollToTop";
+import Reveal from "./components/reusables/Reveal";
 
 function App() {
   return (
@@ -21,11 +22,21 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      <Global />
-      <Fees />
-      <Showcase />
-      <SignUp />
-      <FAQ />
+      <Reveal variant="slide-up" delay="delay-100">
+        <Global />
+      </Reveal>
+      <Reveal variant="slide-up" delay="delay-100">
+        <Fees />
+      </Reveal>
+      <Reveal variant="slide-up" delay="delay-100">
+        <Showcase />
+      </Reveal>
+      <Reveal variant="slide-up" delay="delay-100">
+        <SignUp />
+      </Reveal>
+      <Reveal variant="slide-up" delay="delay-100">
+        <FAQ />
+      </Reveal>
 
       {/* footer container */}
       <div
@@ -33,11 +44,15 @@ function App() {
         style={{ backgroundImage: `url(${footerBg})` }}
       >
         <div className="-mt-[270px] relative z-20">
-          <Help />
+          <Reveal variant="slide-up">
+            <Help />
+          </Reveal>
         </div>
-        <Footer />
+        <Reveal variant="slide-up" delay="delay-100">
+          <Footer />
+        </Reveal>
       </div>
-      <ScrollToTop/>
+      <ScrollToTop />
     </div>
   );
 }

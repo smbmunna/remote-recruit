@@ -35,7 +35,7 @@ export default function Navbar() {
 
       {/* --- Mobile Dropdown Menu Drawer --- */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full px-4 pt-4 pb-6 bg-[#11142D]/95 backdrop-blur-md rounded-b-xl flex flex-col gap-4 md:hidden shadow-lg border-t border-white/5 animate-fadeIn">
+        <div className="absolute top-full left-0 w-full mx-auto px-4 pt-4 pb-6 bg-[#11142D]/95 backdrop-blur-md rounded-xl flex flex-col gap-4 md:hidden shadow-lg border-t border-white/5 animate-fadeIn">
           <button 
             onClick={() => setIsOpen(false)}
             className="w-full text-center py-3 text-white font-semibold hover:bg-white/5 rounded-md transition-colors"
