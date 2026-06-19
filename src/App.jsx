@@ -4,6 +4,8 @@ import bg from "./assets/hero_bg.png";
 import Global from "./components/Global";
 import Fees from "./components/Fees";
 import Showcase from "./components/Showcase";
+import SignUp from "./components/Signup";
+import Help from "./components/Help";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Global />
       <Fees />
       <Showcase />
+      <SignUp/>
+      <Help/>
     </div>
   );
 }
