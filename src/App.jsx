@@ -21,8 +21,8 @@ function App() {
         <Hero />
       </div>
       <Global /> 
-      {/* <Fees />
-      <Showcase />
+      <Fees />
+      {/* <Showcase />
       <SignUp />
       <FAQ/>  */}
 
