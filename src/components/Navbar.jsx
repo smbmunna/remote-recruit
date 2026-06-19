@@ -9,10 +9,9 @@ export default function Navbar() {
     <nav className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 py-6 relative z-50">
       <div className="flex items-center justify-between">
         
-        {/* Logo - Scales smoothly across screen boundaries */}
+        
         <img src={logo} alt="site-logo" className="w-24 sm:w-28 md:w-[123px] object-contain" />
 
-        {/* --- Desktop & Tablet Navigation Menu --- */}
         <div className="hidden md:flex items-center gap-6">
           <button className="text-sm text-white font-semibold hover:text-white/80 transition-colors">
             Sign in
@@ -22,7 +21,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* --- Mobile Hamburger Trigger --- */}
         <div className="flex md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}

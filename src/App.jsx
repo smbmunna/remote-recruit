@@ -20,11 +20,11 @@ function App() {
         <Navbar />
         <Hero />
       </div>
-      {/* <Global />
-      <Fees />
+      <Global /> 
+      {/* <Fees />
       <Showcase />
       <SignUp />
-      <FAQ/> */}
+      <FAQ/>  */}
 
       {/* footer container */}
       <div
