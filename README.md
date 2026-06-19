@@ -22,8 +22,8 @@ Follow these steps to spin up the local development environment:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
-cd remote-recruit-landing
+git clone https://github.com/smbmunna/remote-recruit.git
+cd remote-recruit
 ```
 
 ### 2. Install dependencies
