@@ -3,7 +3,7 @@ import inactiveIcon from "../../assets/inactiveIcon.png";
 
 export default function Plan1() {
   return (
-    <div className="w-[500px] mx-auto border p-6 rounded-b-3xl">
+    <div className="w-[500px] mx-auto p-6 rounded-b-3xl bg-white">
       <div className="flex items-center gap-4">
         <div className="bg-[#ECF2FF] w-[160px] h-[180px] rounded-2xl flex flex-col items-center justify-center ">
           <div className="">
