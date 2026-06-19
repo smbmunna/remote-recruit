@@ -23,8 +23,8 @@ function App() {
       <Global /> 
       <Fees />
       <Showcase />
-      {/* <SignUp />
-      <FAQ/>  */}
+      <SignUp />
+      {/* <FAQ/>  */}
 
       {/* footer container */}
       <div
