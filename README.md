@@ -46,5 +46,5 @@ npm run dev
 
 ## ⚠️ Known Issues or Limitations
 
-- Some sections may require additional responsiveness adjustments for very small screens.
+- Some sections may require minor additional image adjustments.
 - Animations are intentionally minimal to prioritize performance.
